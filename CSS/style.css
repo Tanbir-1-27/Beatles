@@ -31,6 +31,10 @@ a{
     margin: 0 10px;
 }
 
+.mrl-15{
+    margin: 0 15px;
+}
+
 .ml-10{
     margin-left: 10px;
 }
@@ -636,6 +640,7 @@ a{
 .team-bg{
     height: 370px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .team-bg .our-team{
@@ -751,11 +756,270 @@ a{
     text-transform: capitalize;
     color: #555555;
 }
-
-
-
-
-
-
 /* our team end */
 
+/* testimonial start */
+.testimonial-bg{
+    height: 350px;
+}
+
+.testimonial-bg .testimonial{
+    height: 350px;
+}
+
+.testimonial-bg .testimonial .testimonial-headding{
+    height: 55px;
+    position: relative;
+}
+
+.testimonial-bg .testimonial .testimonial-headding p{
+    text-transform: uppercase;
+    color: #353535;
+    font-family: "oswald-med";
+    font-size: 24px;
+    text-align: center;
+}
+
+.testimonial-bg .testimonial .testimonial-headding img{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+}
+
+.testimonial-bg .testimonial .testimonial-item{
+    height: 295px;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item{
+    width: 460px;
+    height: 295px;
+    float: left;
+    text-align: center;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item img{
+    margin-bottom: 31px;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content{
+    width: 460px;
+    height: 180px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content .triangle{
+    height: 30px;
+    width: 30px;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content .hp{
+    font-family: "oswald-med";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #353535;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content ul li{
+    float: left;
+    color: #5bc5f4;
+    font-size: 13px;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content .chairman{
+    font-family: "oswald-reg";
+    font-size: 13px;
+    color: #555555;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.testimonial-bg .testimonial .testimonial-item .item .main-content p{
+    font-family: "oswald-reg";
+    font-size: 13px;
+    line-height: 24px;
+    color: #555555;
+    padding-top: 6px;
+    margin: 0 20px;
+}
+/* testimonial end */
+
+/* footer start */
+.footer-bg{
+    height: 255px;
+    background-color: #353535;
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+.footer-bg .footer{
+    height: 255px;
+}
+
+.footer-bg .footer .footer-logo{
+    width: 220px;
+    height: 255px;
+    float: left;
+}
+
+.footer-bg .footer .footer-logo .fp{
+    font-family: 'OpenSans-reg';
+    font-size: 13px;
+    color: #f1f1f1;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 26px;
+}
+
+.footer-bg .footer .footer-logo .lp{
+    font-family: 'OpenSans-reg';
+    font-size: 13px;
+    color: #f1f1f1;
+    line-height: 24px;
+}
+
+.footer-bg .footer .footer-contact{
+    width: 220px;
+    height: 255px;
+    float: left;
+}
+
+.footer-bg .footer .footer-contact p{
+    font-family: "oswald-med";
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 38px;
+}
+
+.footer-bg .footer .footer-contact ul li{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer-bg .footer .footer-contact ul li i{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 35px;
+    position: absolute;
+    background-color: #5bc5f4;
+}
+
+.footer-bg .footer .footer-contact ul li span{
+    font-family: 'OpenSans-reg';
+    font-size: 13px;
+    color: #f1f1f1;
+    display: block;
+    padding-left: 45px;
+}
+
+.footer-bg .footer .footer-links{
+    width: 140px;
+    height: 255px;
+    float: left;
+}
+
+.footer-bg .footer .footer-links p{
+    font-family: "oswald-med";
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 23px;
+}
+
+.footer-bg .footer .footer-links ul{
+    float: left;
+}
+
+.footer-bg .footer .footer-links ul li{
+    margin-bottom: 18px;
+}
+
+.footer-bg .footer .footer-links ul li a{
+    font-family: 'OpenSans-reg';
+    font-size: 13px;
+    color: #ffffff;
+    display: block;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+
+.footer-bg .footer .footer-links ul li a:hover{
+    color: #5bc5f4;
+}
+
+.footer-bg .footer .footer-photos{
+    width: 300px;
+    height: 255px;
+    float: left;
+}
+
+.footer-bg .footer .footer-photos p{
+    font-family: "oswald-med";
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 23px;
+}
+
+.footer-bg .footer .footer-photos .footer-g{
+    width: 100%;
+    height: 196px;
+}
+
+.footer-bg .footer .footer-photos .footer-g .footer-img .image{
+     width: 90px;
+     height: 91px;
+     float: left;
+     margin-bottom: 15px;
+}
+
+.footer-bg .footer .footer-photos .footer-g .footer-img2 .image{
+     width: 90px;
+     height: 91px;
+     float: left;
+     margin-bottom: 15px;
+}
+/* footer end */
+
+/* copyright start */
+.copyright-bg{
+    height: 44px;
+    background-color: #555555;
+}
+
+.copyright-bg .copyright{
+    height: 44px;
+    text-align: center;
+}
+
+.copyright-bg .copyright p{
+    font-family: 'OpenSans-reg';
+    font-size: 13px;
+    color: #f1f1f1;
+    line-height: 44px;
+}
+
+.copyright-bg .copyright p a{
+    color: #5bc5f4;
+}
+/* copyright end */
